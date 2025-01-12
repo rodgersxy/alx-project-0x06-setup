@@ -1,10 +1,10 @@
+import { ButtonProps } from "@/interface";
 
 
 interface ButtonProps {
-  buttonLabel: string
-  buttonSize?: string
-  buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
-  action?: () => void
+  action: () => void;
+  buttonLabel: string;
+  buttonBackgroundColor: string;
 }
 
 
